@@ -1,0 +1,11 @@
+Apuntes de Arch Linux para nuevos usuarios
+
+Ordenes basicas pacman:
+
+pacman -S <nombrepaquete> 	Instala el pacquete que indiques
+pacman -Syu 			Actualizacion del sistema
+pacman -Syu <nombredelpaquete> 	Actualizar un paquete
+pacman -Syy 			Actualiza los repositorios
+pacman -R <nombredelpaquete>	Elimina un paquete pero no las dependencias
+pacman -Rs <nombredelpaquete> 	Elimina el paquete y las dependencias
+

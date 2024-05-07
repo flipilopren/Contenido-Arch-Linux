@@ -9,3 +9,14 @@ pacman -Syy 			Actualiza los repositorios
 pacman -R <nombredelpaquete>	Elimina un paquete pero no las dependencias
 pacman -Rs <nombredelpaquete> 	Elimina el paquete y las dependencias
 
+
+
+Uso basico de vim:
+
+Dentro de vim insert para escribir
+Para dejar de escribir escape
+fuera del modo escritura : activa "el modo comandos"
+:w 				Guarda todo lo escrito
+:w <nombre del archivo>		Guarda y pone el nombre que quieras
+:wq 				Guarda todo lo escrito y te saca de vim
+

@@ -9,7 +9,11 @@ pacman -Syy 			Actualiza los repositorios
 pacman -R <nombredelpaquete>	Elimina un paquete pero no las dependencias
 pacman -Rs <nombredelpaquete> 	Elimina el paquete y las dependencias
 
-
+Instalar paquetes de forma manual:
+1. instalar el paquete deseado
+2. meterse en el directorio del paquete
+3. asegurarse que existe el archivo PKGBUILD
+4. lanzar la orden makepkg -si para iniciar la instalacion 
 
 Uso basico de vim:
 
@@ -19,4 +23,5 @@ fuera del modo escritura : activa "el modo comandos"
 :w 				Guarda todo lo escrito
 :w <nombre del archivo>		Guarda y pone el nombre que quieras
 :wq 				Guarda todo lo escrito y te saca de vim
+
 

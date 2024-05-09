@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "script funcionando"
+  for (( ; ; ))
+  do
+    sleep 1800
+    notify-send "descansa la vista"
+    echo "descansa la vista"
+done

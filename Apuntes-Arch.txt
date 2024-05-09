@@ -2,7 +2,8 @@ Apuntes de Arch Linux para nuevos usuarios
 
 Ordenes basicas pacman:
 
-pacman -S <nombrepaquete> 	Instala el pacquete que indiques
+pacman -S <nombredelpaquete> 	Instala el pacquete que indiques
+pacman -Ss <nombredelpaquete>  Busca un paquete en los repositorios
 pacman -Syu 			Actualizacion del sistema
 pacman -Syu <nombredelpaquete> 	Actualizar un paquete
 pacman -Syy 			Actualiza los repositorios
@@ -15,8 +16,19 @@ Instalar repositorio multilib que agrega paquetes como steam o wine a Pacman:
 
   [multilib]
   Include = /etc/pacman.d/mirrorlist
+
 2. lanzar la orden pacman -Sy multilib
 3. lanzar la orden pacman -Sl multilib
+
+Instalar Repositorio de la comunidad (PARU)
+
+(instalar la orden git antes de empezar a instalar)
+(No lanzar paru como root o con sudo)
+
+1. git clone https://aur.archlinux.org/paru.git
+2. cd paru
+3. makepkg -si
+4. paru -Syy
 
 
 Instalar paquetes de forma manual:

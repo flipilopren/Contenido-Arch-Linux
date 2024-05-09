@@ -54,6 +54,7 @@ Uso basico de vim:
 Dentro de vim insert para escribir
 Para dejar de escribir escape
 fuera del modo escritura : activa "el modo comandos"
+:q!       Fuerza la salida sin guardar los cambios
 :w 				Guarda todo lo escrito
 :w <nombre del archivo>		Guarda y pone el nombre que quieras
 :wq 				Guarda todo lo escrito y te saca de vim

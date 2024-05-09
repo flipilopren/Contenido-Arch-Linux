@@ -37,6 +37,12 @@ Instalar paquetes de forma manual:
 3. asegurarse que existe el archivo PKGBUILD
 4. lanzar la orden makepkg -si para iniciar la instalacion 
 
+Lutris solucion error 256:
+
+https://forums.lutris.net/t/how-to-fix-exit-with-return-code-256/17392
+
+
+
 Uso basico de vim:
 
 Dentro de vim insert para escribir

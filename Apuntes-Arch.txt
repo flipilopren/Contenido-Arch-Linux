@@ -9,6 +9,16 @@ pacman -Syy 			Actualiza los repositorios
 pacman -R <nombredelpaquete>	Elimina un paquete pero no las dependencias
 pacman -Rs <nombredelpaquete> 	Elimina el paquete y las dependencias
 
+Instalar repositorio multilib que agrega paquetes como steam o wine a Pacman:
+
+1. Con tu editor de texto editar el fichero /etc/pacman.conf y descomentar las dos siguientes lineas
+
+  [multilib]
+  Include = /etc/pacman.d/mirrorlist
+2. lanzar la orden pacman -Sy multilib
+3. lanzar la orden pacman -Sl multilib
+
+
 Instalar paquetes de forma manual:
 1. instalar el paquete deseado
 2. meterse en el directorio del paquete

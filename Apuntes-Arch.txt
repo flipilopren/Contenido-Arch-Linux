@@ -20,6 +20,12 @@ Instalar repositorio multilib que agrega paquetes como steam o wine a Pacman:
 2. lanzar la orden pacman -Sy multilib
 3. lanzar la orden pacman -Sl multilib
 
+Configuracion estetica Pacman
+
+Editar el fichero en /etc/pacman.conf
+añadir al fichero de configuracion ILoveCandy para hacer que apareca pacman en la barra de carga
+descomentar color para mas colores
+
 Instalar Repositorio de la comunidad (PARU)
 
 (instalar la orden git antes de empezar a instalar)

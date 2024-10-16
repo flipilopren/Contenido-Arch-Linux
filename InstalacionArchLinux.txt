@@ -1,1 +1,6 @@
+// Instalacion Manual de Arch Linux 2024 //
 
+Cambiar idioma del teclado a español:
+#localectl set-keymap es
+
+Lanzar #lsblk para ver discos
